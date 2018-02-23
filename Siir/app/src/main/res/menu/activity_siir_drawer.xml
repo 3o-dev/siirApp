@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Anasayfa" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/ic_featured_play_list_black_24dp"
+            android:title="Kategoriler" />
+
+        <item
+            android:id="@+id/nav_siir"
+            android:icon="@drawable/ic_textsms_black_24dp"
+            android:title="Şiirler" />
+        <item
+            android:id="@+id/nav_pop"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Popüler Şiirler" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_mood_black_24dp"
+            android:title="Favoriler" />
+
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaş" />
+
+        </menu>
+    </item>
+
+</menu>

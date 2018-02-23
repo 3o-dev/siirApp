@@ -1,0 +1,14 @@
+<resources>
+    //activity_login
+    <string name="app_name">Siir</string>
+    <string name="kullaniciadi">Kullanıcı Adı : </string>
+    <string name="Sifre">Şifre : </string>
+    <string name="title_activity_anasayfa">AnasayfaActivity</string>
+    //activity_anasayfa
+    <string name="gununSiiri">Günün Şiiri</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="populerSiirler">Popüler Şiirler</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_siir">SiirActivity</string>
+</resources>
